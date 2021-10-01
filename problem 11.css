@@ -1,0 +1,9 @@
+td,th{
+    border: black solid 2px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+.border{
+    border-collapse: collapse;
+}

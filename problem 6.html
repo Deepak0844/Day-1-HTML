@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="problem 6.css">
+    <title>Radio button</title>
+</head>
+<body>
+    <div class="container" >
+    <form>
+ <div class="title">
+<h2>Company Name</h2>
+ </div>
+ <div class="heading">
+    <p>Employee details </p> 
+    </div>
+<div class="block">
+<p>First Name</p>
+<input type="text" placeholder="FirstName" />
+</div>
+<div class="block">
+    <p>Last Name</p>
+    <input type="text" placeholder="LastName" />
+    </div>
+    <div class="block1">
+        <p>Email Address</p>
+        <input type="text" placeholder="Email Address" size="46" />
+        </div>
+        <div class="block1">
+            <p>Phone Number</p>
+            <input type="text" placeholder="Phone Number" size="46" maxlength="10" minlength="10"/>
+            </div>
+            <form>
+                <p>Employee Type:</p>
+           <input type="radio" id="salaried" name="employee type"
+           value ="salaried" checked> <label for="salaried">Salaried</label> 
+           <input type="radio" id="own business" name="employee type"
+           value ="own business" checked> <label for="own business" >Own Business</label>
+            </form>
+            <div class="button">
+                <input type="button" value="submit" size="100" />
+                </div>
+        </form>
+    </div>
+</body>
+</html>
